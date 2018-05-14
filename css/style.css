@@ -1636,8 +1636,8 @@ form label {
   display: none;
   margin: 0 auto;
   display: none;
-  height: 44px;
-  width: 44px;
+  height: 1px;
+  width: 1px;
   z-index: 2001;
   border-bottom: none !important;
 }
