@@ -618,13 +618,14 @@
 
 	<script>
     //var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-    var d = new Date("2018/09/02 04:00 AM");
+    var d = new Date("2018/09/01 01:00 PM");
 
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
-        day: d.getDate()
+        day: d.getDate(),
+        hour: d.getHours()
     });
 
     //jQuery example
