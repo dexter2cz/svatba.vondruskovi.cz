@@ -1549,6 +1549,7 @@ form label {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+  display: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #444;
@@ -1568,6 +1569,7 @@ form label {
   text-indent: -55px;
   background: #252525;
   transition: all .2s ease-out;
+  display: none;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
@@ -1577,6 +1579,7 @@ form label {
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
+  display: none;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
